@@ -1,0 +1,36 @@
+/* -------------------------------------------
+      CSS Global Variables
+--------------------------------------------*/
+
+:root {
+  /* Colors variables */
+  --primary: #37474F;
+  --primary-hover: #455A64;
+  --primary-dark: #263238;
+  --cta:#8fbae7;
+  --secondary: #FFCA28;
+  --darkbg: #263238;
+  --secondary-hover: #fecf64;
+  --danger: #F06292;
+  --danger-hover: #f48fb1;
+  --success: #7CB342;
+  --success-hover: #9ccc65;
+  --darktext: #546E7A;
+  --lighttext: #CFD8DC;
+  --white: #FFF;
+
+  /* Social media */
+  --whatsapp: #4dc247;
+  --whatsapp-hover: #4aac45;
+  --facebook: #3b5998;
+  --facebook-hover: #374e7e;
+  --twitter: #55acee;
+  --twitter-hover: #5298ce;
+  --youtube: #ff0000;
+  --youtube-hover: #da1818;
+  --instagram: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  --instagram-hover: #dc2743;
+  
+  /* System variables */
+  --default-width: 1280px;
+}

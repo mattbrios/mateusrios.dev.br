@@ -1,0 +1,35 @@
+.bold-text {
+  font-weight: 700 !important;
+}
+
+/* -------------------------------------------
+    Text color classes 
+--------------------------------------------*/
+
+.primary--text {
+  color: var(--primary) !important;
+}
+
+.secondary--text {
+  color: var(--secondary) !important;
+}
+
+.danger--text {
+  color: var(--danger) !important;
+}
+
+.success--text {
+  color: var(--success) !important;
+}
+
+.dark--text {
+  color: var(--darktext) !important;
+}
+
+.light--text {
+  color: var(--lighttext) !important;
+}
+
+.white--text, .white--text * {
+  color: white !important;
+}
