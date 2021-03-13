@@ -2,10 +2,15 @@ import React from 'react';
 import { Container, Grid, Hidden, Typography } from '@material-ui/core';
 import styled from 'styled-components';
 import Step from './Step';
+import Background from '../../../assets/bg-comofunciona.jpg'
+import Arrow from '../../../assets/seta.png'
 
 const HowItWorksContainer = styled.div`
   padding: 48px 0;
   background: var(--primary-dark);
+  background-image: url(${Background});
+  background-size: cover;
+  background-position: top;
 `;
 
 const HowItWorks = () => {
@@ -27,7 +32,10 @@ const HowItWorks = () => {
              />
           </Grid>
           <Hidden smDown>
-            <Grid item sm={6} />
+            <Grid item sm={2}>
+              <img src={Arrow} alt="Próximo passo" style={{ width: "70%", transform: "rotate(-90deg) scaleX(-1)", marginTop: 24 }} />
+            </Grid>
+            <Grid item sm={4} />
             <Grid item sm={3} />
           </Hidden>
           <Grid item xs={12} sm={6}>
@@ -40,7 +48,10 @@ const HowItWorks = () => {
           </Grid>
           <Hidden smDown>
             <Grid item sm={3} />
-            <Grid item sm={6} />
+            <Grid item sm={4} />
+            <Grid item sm={2}>
+              <img src={Arrow} alt="Próximo passo" style={{ width: "70%", marginTop: 24 }} align="right" />
+            </Grid>
           </Hidden>
           <Grid item xs={12} sm={6}>
             <Step
